@@ -1,13 +1,102 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>オリジナルサイト</title>
-</head>
-<body>
-  <h1>オリジナルサイト</h1>
-  <p>はじめてのオリジナルサイトです。</p>
-</body>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>MONO</title>
+        <meta name="description" content="ページの説明" />
+        <meta name="format-detection" content="telephone=no" />
+
+        <!-- favicon/webclipicon -->
+        <link rel="icon" href="favicon.ico" />
+        <link rel="icon" href="favicon.svg" type="image/svg+xml">
+        <link rel="apple-touch-icon" href="webclip.png" />
+
+        <!-- ogp -->
+        <meta property="og:site_name" content="サイト名" />
+        <meta property="og:url" content="URL" />
+        <meta property="og:type" content="website or article" />
+        <meta property="og:title" content="ページのタイトル" />
+        <meta property="og:description" content="ページの説明" />
+        <meta property="og:image" content="URL" />
+        <meta property="og:locale" content="ja_JP" />
+        <!-- <meta property="fb:app_id" content="AppID"> -->
+        <meta name="twitter:card" content="summary_large_image or summary" />
+        <!-- <meta name="twitter:site" content="@moshamusha2010" /> -->
+        <meta name="twitter:description" content="ページの説明" />
+        <meta name="twitter:image:src" content="URL" />
+
+        <!-- css -->
+        <link rel="stylesheet" href="/css/reset.css">
+        <link rel="stylesheet" href="/css/style.css">
+
+        <!-- js -->
+        <script src="js/main.js" defer></script>
+
+        <!-- 場合によって必要 -->
+        <!-- <meta name="robots" content="noindex,nofollow"> -->
+    </head>
+
+    <body>
+       <header id="header">
+         <div class="wrapper">
+        <nav>
+            <ul>
+            <li><a href="#">商品情報</a></li>
+            <li><a href="#">ブランド</a></li>
+            <li><a href="#">会社情報</a></li>
+            </ul>
+        </nav>
+         </div>
+       </header>
+
+       <main id="main">
+        <section class="contents">
+            <div class="mainvisual">
+                <img src="/img/mv_pc.jpg">
+            </div>    
+                <div class="logo">
+                    <img src="/img/mv_logo.png">
+                    <p>知的活動を完璧にサポートする</p>
+                </div>
+        </section>
+
+        <section class="contents">
+            <div class="title">
+                <P>MONO消しゴムの歴史</P>
+            </div>
+            <div class="explain">
+                <img src="/img/story_img_02_pc.png">
+                <div class="text">
+                <h1>MONO消しゴムは「鉛筆のオマケ」から始まった</h1>
+                <p> 1967年、トンボ鉛筆創立55年を記念して「MONO」のさらに高品質な最高級鉛筆「MONO100」が発売されました。</p>
+                <p>トンボ鉛筆の理想とする「書き味、強度、濃さ」を兼ね備えた「MONO100」。 そして、消しゴムできれいに消せるという特長を実感してもらうため、当時は珍しかったプラスチック消しゴムが1ダースに1個付けられました。 この消しゴムが、よく消えると評判になり「MONO消しゴム」の販売を希望する声が多く寄せられ、消しゴム単体で製品化することとなったのです。</p> 
+                </div>
+            </div>
+        </section>
+
+        <section class="contents">
+            <p class="tite">more products</p>
+            <div class="products">
+                <img src="/img/banner_img_01_pc.jpg">
+            </div>    
+                <div class="produce">
+                    <img src="/img/mv_logo.png">
+                    <p>青・白・黒のトリコロールは<br>
+                        高品質のシンボル
+                    </p>
+                </div>
+                <div class="look">
+                    <p>「消しゴム」の商品を見る</p>
+                    <img src="/img/icon_arrow_red.svg">
+                </div>
+
+        </section>
+
+       </main>
+
+       <footer>
+        <p>TOMBOW</p>
+       </footer>
+    </body>
 </html>
